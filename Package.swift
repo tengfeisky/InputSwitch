@@ -15,6 +15,9 @@ let package = Package(
         .executableTarget(
             name: "InputSwitch",
             dependencies: [],
+            resources: [
+                .process("Assets.xcassets")
+            ],
             swiftSettings: [
                 .unsafeFlags(["-framework", "Carbon"])
             ]
