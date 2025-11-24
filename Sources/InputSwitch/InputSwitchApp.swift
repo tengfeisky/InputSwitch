@@ -21,7 +21,7 @@ struct InputSwitchApp: App {
     @StateObject var configManager = ConfigManager.shared
     
     var body: some Scene {
-        WindowGroup(id: "main") {
+        Window("InputSwitch", id: "main") {
             ContentView()
         }
         
