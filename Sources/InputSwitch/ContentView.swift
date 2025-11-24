@@ -90,8 +90,19 @@ struct ContentView: View {
             .navigationTitle("Input Switch")
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {
-                    Button(action: selectApp) {
-                        Label("Add App", systemImage: "plus")
+                    HStack {
+                        Menu {
+                            Toggle("Show Toast", isOn: Binding(
+                                get: { configManager.showToast },
+                                set: { configManager.setShowToast($0) }
+                            ))
+                        } label: {
+                            Label("Settings", systemImage: "gear")
+                        }
+                        
+                        Button(action: selectApp) {
+                            Label("Add App", systemImage: "plus")
+                        }
                     }
                 }
             }

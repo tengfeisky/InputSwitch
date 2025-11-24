@@ -42,7 +42,9 @@ class InputSwitchService: ObservableObject {
                 if InputSourceManager.shared.setInputSource(id: targetSourceID) {
                     if let source = InputSourceManager.shared.availableInputSources().first(where: { $0.id == targetSourceID }) {
                         DispatchQueue.main.async {
-                            ToastWindow.shared.show(message: "Switched to \(source.name)")
+                            if ConfigManager.shared.showToast {
+                                ToastWindow.shared.show(message: "Switched to \(source.name)")
+                            }
                         }
                     }
                 } else {
@@ -60,7 +62,9 @@ class InputSwitchService: ObservableObject {
                     if InputSourceManager.shared.setInputSource(id: savedID) {
                         if let source = InputSourceManager.shared.availableInputSources().first(where: { $0.id == savedID }) {
                             DispatchQueue.main.async {
-                                ToastWindow.shared.show(message: "Restored to \(source.name)")
+                                if ConfigManager.shared.showToast {
+                                    ToastWindow.shared.show(message: "Restored to \(source.name)")
+                                }
                             }
                         }
                     } else {
