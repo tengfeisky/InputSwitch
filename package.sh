@@ -79,4 +79,9 @@ echo "APPL????" > "${CONTENTS_DIR}/PkgInfo"
 echo "Signing app..."
 codesign --force --deep --sign - "${APP_BUNDLE}"
 
-echo "Done! ${APP_BUNDLE} created."
+
+echo "Zipping app for distribution..."
+zip -r "${APP_NAME}.zip" "${APP_BUNDLE}"
+
+echo "Done! ${APP_BUNDLE} created and zipped to ${APP_NAME}.zip"
+
