@@ -6,7 +6,35 @@
 	<dict>
 		<key>Resources/AppIcon.icns</key>
 		<data>
-		QmHTQuRNd3LSivtzQkdJeUD+AlI=
+		HUagbht3gSSkAhsbujW8JIjgXos=
+		</data>
+		<key>Resources/InputSwitch_InputSwitch.bundle/Assets.xcassets/.DS_Store</key>
+		<data>
+		JqfedKZ8CudsmKixsI3AYHfObX0=
+		</data>
+		<key>Resources/InputSwitch_InputSwitch.bundle/Assets.xcassets/AppIcon.appiconset/Contents.json</key>
+		<data>
+		5zDoyvq+b207JbVXDkKQc2JAdqI=
+		</data>
+		<key>Resources/InputSwitch_InputSwitch.bundle/Assets.xcassets/AppIcon.appiconset/icon_1024x1024.png</key>
+		<data>
+		/yyLezb/HAWZJ+FHYQIE9kyKv4M=
+		</data>
+		<key>Resources/InputSwitch_InputSwitch.bundle/Assets.xcassets/MenuBarIcon.imageset/Contents.json</key>
+		<data>
+		nVkBv+1k8VBzEHqRBCCpE4CvQCg=
+		</data>
+		<key>Resources/InputSwitch_InputSwitch.bundle/Assets.xcassets/MenuBarIcon.imageset/menubar_22.png</key>
+		<data>
+		1Rkg51+49BsM7D+7yy7/QItebQM=
+		</data>
+		<key>Resources/InputSwitch_InputSwitch.bundle/Assets.xcassets/MenuBarIcon.imageset/menubar_44.png</key>
+		<data>
+		xxBTRgUUZrVfWxhi8S53horI40I=
+		</data>
+		<key>Resources/InputSwitch_InputSwitch.bundle/Assets.xcassets/MenuBarIcon.imageset/menubar_66.png</key>
+		<data>
+		qMTTrqowtnB9hydOYQKCqC54Iwk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,7 +43,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ynxCG8YPlQFoxechdfLYgjo3q8xTKM0n55KvYm8SaVc=
+			327/GIwo1mNCNnwHiiZdK6JsnutzUm0fPI5T1bmAZv8=
+			</data>
+		</dict>
+		<key>Resources/InputSwitch_InputSwitch.bundle/Assets.xcassets/AppIcon.appiconset/Contents.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VjbcAQ9NF0oJ3doDdC54PwfzE7fEl5ARR2qt8WA3Rcg=
+			</data>
+		</dict>
+		<key>Resources/InputSwitch_InputSwitch.bundle/Assets.xcassets/AppIcon.appiconset/icon_1024x1024.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kILv5NHs8gbjaOnI9lWZwcVhlTY6cfqOrQnnz0U5Dzo=
+			</data>
+		</dict>
+		<key>Resources/InputSwitch_InputSwitch.bundle/Assets.xcassets/MenuBarIcon.imageset/Contents.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Vx8VpcEv217lEEsAlsfu1XKL4PDg0E4fVRJkEWNMyL4=
+			</data>
+		</dict>
+		<key>Resources/InputSwitch_InputSwitch.bundle/Assets.xcassets/MenuBarIcon.imageset/menubar_22.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WkJFtYXBa7iEw5MAlCOcB4CLR48ocu04GPWdAO8nRUY=
+			</data>
+		</dict>
+		<key>Resources/InputSwitch_InputSwitch.bundle/Assets.xcassets/MenuBarIcon.imageset/menubar_44.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o4yG8G7kgpl0XXfM4BMMF+hXI1v3nsWnVXlDAE4vGwA=
+			</data>
+		</dict>
+		<key>Resources/InputSwitch_InputSwitch.bundle/Assets.xcassets/MenuBarIcon.imageset/menubar_66.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7Bxhc0YNLOPtUN5HDbKrcqudPVGzj8m9TW/5SVUmVqk=
 			</data>
 		</dict>
 	</dict>

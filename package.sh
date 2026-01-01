@@ -20,6 +20,11 @@ mkdir -p "${RESOURCES_DIR}"
 echo "Copying executable..."
 cp "${BUILD_DIR}/${APP_NAME}" "${MACOS_DIR}/"
 
+echo "Copying resources..."
+if [ -d "${BUILD_DIR}/${APP_NAME}_${APP_NAME}.bundle" ]; then
+    cp -r "${BUILD_DIR}/${APP_NAME}_${APP_NAME}.bundle" "${RESOURCES_DIR}/"
+fi
+
 # Icon generation
 ICON_SOURCE="Sources/InputSwitch/Assets.xcassets/AppIcon.appiconset/icon_1024x1024.png"
 if [ -f "$ICON_SOURCE" ]; then

@@ -25,8 +25,21 @@ struct InputSwitchApp: App {
             ContentView()
         }
         
-        MenuBarExtra("InputSwitch", systemImage: "keyboard") {
+        MenuBarExtra {
             MenuBarContent()
+        } label: {
+            MenuBarIconView()
+        }
+    }
+    
+    private struct MenuBarIconView: View {
+        var body: some View {
+            let iconPath = Bundle.module.path(forResource: "menubar_22", ofType: "png", inDirectory: "Assets.xcassets/MenuBarIcon.imageset")
+            if let path = iconPath, let nsImage = NSImage(contentsOfFile: path) {
+                Image(nsImage: nsImage)
+            } else {
+                Image(systemName: "keyboard")
+            }
         }
     }
 }
