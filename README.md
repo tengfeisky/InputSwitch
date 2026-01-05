@@ -15,6 +15,29 @@ InputSwitch is a macOS utility designed to automatically switch input sources ba
 
 ## Installation
 
+### Download Release
+
+Download the latest `InputSwitch.zip` from [Releases](https://github.com/tengfeisky/InputSwitch/releases), unzip and move `InputSwitch.app` to your Applications folder.
+
+> **⚠️ Security Notice**
+>
+> Since this app is not signed with an Apple Developer certificate, macOS may block it from opening. To resolve this:
+>
+> **Option 1: Right-click to open**
+> 1. In Finder, right-click (or Control-click) on `InputSwitch.app`
+> 2. Select **"Open"** from the menu
+> 3. Click **"Open"** in the dialog that appears
+>
+> **Option 2: Remove quarantine via Terminal**
+> ```bash
+> xattr -cr /Applications/InputSwitch.app
+> ```
+>
+> **Option 3: System Settings**
+> 1. Try to open the app (you'll see a security warning)
+> 2. Go to **System Settings → Privacy & Security**
+> 3. Scroll down and click **"Open Anyway"**
+
 ### Build from Source
 
 1.  Clone the repository:
